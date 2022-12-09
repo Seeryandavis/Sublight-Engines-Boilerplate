@@ -1,0 +1,495 @@
+.BG_image {
+    height: 100vh;
+    display: block;
+    margin: auto;
+    justify-content: center;
+
+}
+
+header{
+    background-image: url('/Sublight/bkg_1\ 1.png');
+    background-size: cover;
+    height: 960px;
+    position: relative;
+}
+
+
+.header_Text {
+     color: white;
+     position: absolute;
+     padding-top: 15em; 
+     padding-left: 3em; 
+     display: block;
+     margin: auto;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     width: 600px;
+     height: 60px;
+     font-family:'Roboto', sans-serif;
+     font-weight: 800;
+
+
+
+}
+
+.header_Text h1{
+    font-size: 60px;
+}
+
+.header_Text h2{
+    font-size: 20px;
+}
+
+.nav_bar{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+
+}
+
+.bg_opacity{
+    opacity: .69;
+}
+
+.nav_bar > .menu{
+    background-color: rgba(0, 0, 0, 0.792);
+    display: flex; 
+    justify-content:space-around;
+    text-align: center;
+    text-transform: capitalize;
+    float: left;
+    padding: 12px;
+    color: darkorange;
+    text-decoration: none;
+    font-size: 16px;
+    width: 40%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+
+
+}
+
+.menu li>a{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+
+.menu :hover{
+    color: darkorange;
+
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin: 3;
+    padding: 3;
+  }
+  
+
+
+.main{
+background-size:cover;
+padding: 15 em;
+display: block;
+height: 4000px;
+overflow: visible;
+width: 1440px;
+position: absolute;
+background-color:  rgba(0, 0, 0, 0.792);
+
+}
+
+body{
+    background-color: #ffffff;
+    font-family:'Roboto', sans-serif;
+}
+
+.container1{
+    background-color: gray;
+    text-align: center;
+
+    
+
+}
+
+    
+.row {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.text_wrapper{
+    text-align: left;
+    width: 586px; 
+}
+
+
+#Security{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#products{
+    background-color: #ff7630;
+}
+.top {
+    display:block; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.top h2{
+    padding-top: 5rem;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.top h3{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.card{
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row{
+    color: #383838;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.DL-BTN{
+    text-align: center;
+    margin: 8rem;
+}
+
+.small_text_contact{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.large_text_contact{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #ff7630;
+}
+
+
+
+.icon_sep{
+    text-align: center;
+}
+
+form{
+    margin:auto;
+    text-align: center;
+    background-color: white;
+    padding: 100px;
+}
+.form-container {
+    display: block;
+    
+}
+form h1 {
+    color: #FF7630;
+    font-size: 25px;
+}
+form h2 {
+    color:#FF7630;
+    font-size: 45px;
+}
+.form-text {
+   margin-right:35%;
+}
+.form-text-input {
+    border-radius: 0;
+    border: 1px solid black;
+}
+.form-separator {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 3%;
+    
+}
+.footer-country-US {
+    text-align: left;
+}
+.footer-country-CA {
+    text-align: right;
+}
+.footer-country-US h1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #FF7630;
+    padding-bottom: 20px;
+}
+.footer-country-US h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer-country-US h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer-country-CA h1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #FF7630;
+    padding-bottom: 20px;
+}
+.footer-country-CA h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer-country-CA h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer-copyright {
+    padding-top: 1%;
+    text-align:center;
+    color: black;
+    letter-spacing: 3px;
+    background-color: white;
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+/* Mobile Menu */
+
+@media only screen and (max-width:390px){
+    
+
+    .nav{
+        background-color: rgba(0, 0, 0, 1);
+        display: flex;
+        justify-content:space-around;
+        margin-top: 500px;
+        overflow: hidden;
+        position: relative;
+
+    
+    }
+
+    .menu a {
+        display: none;
+
+    }
+
+    header{
+        background-image: url('/Sublight/bkg_1\ 1.png');
+        background-size: cover;
+        width: 100%;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        /* height: 960px; */
+        /* position: relative; */
+    }
+    
+     
+    .header_Text {
+         color: white;
+         /* position: absolute; */
+         /* padding-top: 15em;  */
+          padding-left: 3em;  
+         display: flex;
+         flex-direction: column;
+         /* margin: auto; */
+         top: 400px;
+         left: 150px; 
+         /* transform: translate(-50%,-50%); */
+         text-align: center;
+         width: 50%;
+         height: -50px;
+         font-family:'Roboto', sans-serif;
+         font-weight: 800;
+         /* font-size: 20px; */
+    
+    
+    
+    } 
+    
+    .header_Text h1{
+        font-size: 30px;
+        height: 60px;
+        padding-bottom: 75px; 
+     }
+    
+    .header_Text h2{
+        font-size: 25px;
+        height: 50px;
+        justify-content: center;
+        /* padding-bottom: 50px; */
+
+        
+        
+    }
+    
+    .row{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    
+}
+/* break */
+.container1{
+    background-color: gray;
+    text-align: center;
+    
+   
+}
+.rowgrey{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.tools_main_wrapper{
+    display: flex;
+}
+
+.tools_content{
+    display: flex;
+}
+
+
+
+
+.text_wrapper{
+    text-align: left;
+    width: 400px;
+     
+}
+
+.image_wrapper{
+    width: 400px;
+
+}
+
+.container2{
+    flex-direction: column-reverse;
+    font-size: 20px;    
+    justify-content: space-evenly;
+    /* position: center;
+    display: flex; */
+
+}
+
+
+.security{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products{
+    background-color: #ff7630;
+}
+.top {
+    display:block; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.top h2{
+    padding-top: 5rem;
+    color:white;
+    font-size: 20px;
+}
+
+.top h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.card{
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+   
+}
+
+.card_content{
+    width: 80%;
+    text-align: center;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.form-container{
+    font-size: 25px;
+}
+
+
+#logo_background{
+    background-color:  #292929;
+    margin: auto;
+    padding: 10px 50px;
+}
+
+/* .row{
+    color: #383838;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+
+
+
+  
